@@ -1,3 +1,6 @@
+// ram added this to test
+PlayersList = new Mongo.Collection('players');
+
 Tasks = new Mongo.Collection("tasks");
 
 if (Meteor.isClient) {
